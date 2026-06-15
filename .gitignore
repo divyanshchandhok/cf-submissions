@@ -9,8 +9,8 @@ venv/
 env/
 
 # Sync scripts and local cache (ignored from GitHub repo)
-sync.py
-clean_folder.py
+*.py
+*.js
 .sync_cache.json
 
 # System files
