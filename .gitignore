@@ -1,0 +1,18 @@
+# Python caches and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Sync scripts and local cache (ignored from GitHub repo)
+sync.py
+clean_folder.py
+.sync_cache.json
+
+# System files
+.DS_Store
+Thumbs.db

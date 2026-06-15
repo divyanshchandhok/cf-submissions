@@ -1,0 +1,69 @@
+# Absolute Cinema
+**Problem ID:** 2195D | **Rating:** 1300 | **Tags:** `math`
+**Language:** C++23 (GCC 14-64, msys2) | **Time:** 125 ms | **Memory:** 7700 KB | **Solved At:** 2026-02-19 20:38
+**Link:** [Codeforces Problem Page](https://codeforces.com/problemset/problem/2195/D)
+
+---
+## Description
+
+There is a hidden sequence $a_1,a_2,\ldots,a_n$ of $n$ **integers** ($n \ge 2$). It is guaranteed that $|a_i| \le 1000$ for all $1 \le i \le n$.
+
+Let's define a function $f(x)$ as follows:
+
+$$f(x)=\sum_{i=1}^n a_i \cdot |i-x|$$
+
+Given $n$ values $f(1),f(2),\ldots,f(n)$, please determine the values of $a_1,a_2,\ldots,a_n$.
+
+It is guaranteed that the values $a_1,a_2,\ldots,a_n$ can be determined uniquely.
+
+## Input Specification
+
+Each test contains multiple test cases. The first line contains the number of test cases $t$ ($1 \le t \le 10^4$). The description of the test cases follows.
+
+The first line of each test case contains a single integer $n$ ($\color{red}{2} \le n \le 300\,000$).
+
+The second line of each test case contains $n$ integers $f(1),f(2),\ldots,f(n)$ ($-10^{14} \le f(i) \le 10^{14}$).
+
+It is guaranteed that the sum of $n$ over all test cases does not exceed $300\,000$.
+
+## Output Specification
+
+For each test case, output $n$ **integers** $a_1,a_2,\ldots,a_n$ on a separate line ($|a_i| \le 1000$).
+
+It is guaranteed that the values $a_1,a_2,\ldots,a_n$ can be determined uniquely.
+
+## Sample Tests
+
+### Sample 1
+**Input:**
+```
+4
+4
+17 9 9 13
+6
+-37 -32 -15 4 27 42
+5
+-26 -32 -24 -4 2
+2
+420 -69
+```
+
+**Output:**
+```
+1 4 2 3
+3 6 1 2 -4 -7
+-6 7 6 -7 -6
+-69 420
+```
+
+## Note
+
+In the first test case, the hidden sequence is $a=[1,4,2,3]$.
+
+The values $f(1),f(2),\ldots,f(n)$ are as follows:
+
+- $f(1) = 1 \cdot |1-1| + 4 \cdot |2-1| + 2 \cdot |3-1| + 3 \cdot |4-1| = 0+4+4+9 = 17$;
+- $f(2) = 1 \cdot |1-2| + 4 \cdot |2-2| + 2 \cdot |3-2| + 3 \cdot |4-2| = 1+0+2+6 = 9$;
+- $f(3) = 1 \cdot |1-3| + 4 \cdot |2-3| + 2 \cdot |3-3| + 3 \cdot |4-3| = 2+4+0+3 = 9$;
+- $f(4) = 1 \cdot |1-4| + 4 \cdot |2-4| + 2 \cdot |3-4| + 3 \cdot |4-4| = 3+8+2+0 = 13$.
+

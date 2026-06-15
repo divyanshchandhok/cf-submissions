@@ -1,0 +1,71 @@
+# Lever
+**Problem ID:** 2131A | **Rating:** 800 | **Tags:** `math`
+**Language:** C++23 (GCC 14-64, msys2) | **Time:** 78 ms | **Memory:** 0 KB | **Solved At:** 2025-08-10 20:29
+**Link:** [Codeforces Problem Page](https://codeforces.com/problemset/problem/2131/A)
+
+---
+## Description
+
+In Divergent Universe, The Lever iterates itself given two arrays $a$ and $b$ of length $n$. In each iteration, The Lever will do the following:
+
+1. Choose a random index $i$ such that $a_i  \gt  b_i$. Then, decrease $a_i$ by $1$. If there does not exist such $i$, ignore this step.
+2. Choose a random index $i$ such that $a_i  \lt  b_i$. Then, increase $a_i$ by $1$. If there does not exist such $i$, ignore this step.
+
+After each iteration, the Lever will check if step $1$ is ignored, and if so, it will end its iteration.
+
+You're given the two arrays. Find the number of iterations that the Lever does. It can be shown this number is fixed over all possibilities of random indices that The Lever can choose for each step.
+
+## Input Specification
+
+Each test contains multiple test cases. The first line contains the number of test cases $t$ ($1 \le t \le 10^4$). The description of the test cases follows.
+
+The first line of each test case contains one integer $n$ ($1 \le n \le 10$).
+
+The second line of each test case contains $n$ integers $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 10$).
+
+The third line of each test case contains $n$ integers $b_1, b_2, \dots, b_n$ ($1 \le b_i \le 10$).
+
+## Output Specification
+
+For each test case, output one integer — the number of iterations that the Lever does.
+
+## Sample Tests
+
+### Sample 1
+**Input:**
+```
+4
+2
+7 3
+5 6
+3
+3 1 4
+3 1 4
+1
+10
+1
+6
+1 1 4 5 1 4
+1 9 1 9 8 1
+```
+
+**Output:**
+```
+3
+1
+10
+7
+```
+
+## Note
+
+In the first sample case:
+
+In the first iteration, the Lever decreases $a_1$ by $1$ and increases $a_2$ by $1$, and $a$ becomes $[6,4]$.
+
+In the second iteration, the Lever decreases $a_1$ by $1$ and increases $a_2$ by $1$, and $a$ becomes $[5,5]$.
+
+In the third iteration, the Lever increases $a_2$ by $1$, and $a$ becomes $[5,6]$. Since it fails to decrease an element, its iteration ends. Therefore, the answer is $3$.
+
+In the second sample case, the Lever does nothing in its first iteration, and thus it does only one iteration.
+

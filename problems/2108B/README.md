@@ -1,0 +1,58 @@
+# SUMdamental Decomposition
+**Problem ID:** 2108B | **Rating:** 1300 | **Tags:** `bitmasks`, `constructive algorithms`, `greedy`, `implementation`, `math`
+**Language:** PyPy 3-64 | **Time:** 171 ms | **Memory:** 5000 KB | **Solved At:** 2025-05-01 22:45
+**Link:** [Codeforces Problem Page](https://codeforces.com/problemset/problem/2108/B)
+
+---
+## Description
+
+On a recent birthday, your best friend Maurice gave you a pair of numbers $n$ and $x$, and asked you to construct an array of **positive** numbers $a$ of length $n$ such that $a_1 \oplus a_2 \oplus \cdots \oplus a_n = x$ $^{\text{∗}}$.
+
+This task seemed too simple to you, and therefore you decided to give Maurice a return gift by constructing an array among all such arrays that has the smallest sum of its elements. You immediately thought of a suitable array; however, since writing it down turned out to be too time-consuming, Maurice will have to settle for just the sum of its elements.
+
+$^{\text{∗}}$$\oplus$ denotes the bitwise XOR operation.
+
+## Input Specification
+
+Each test contains multiple test cases. The first line contains the number of test cases $t$ ($1 \le t \le 10^4$). The description of the test cases follows.
+
+Each test case consists of a single line containing a pair of numbers $n$ and $x$ ($1 \le n \le 10^9, \; 0 \le x \le 10^9$) — the numbers given to you by Maurice.
+
+## Output Specification
+
+For each test case, output your gift to Maurice — the sum of the elements of the array that satisfies all the described properties. If a suitable array does not exist, output $-1$.
+
+## Sample Tests
+
+### Sample 1
+**Input:**
+```
+8
+2 1
+3 6
+1 0
+2 0
+5 0
+2 27
+15 43
+12345678 9101112
+```
+
+**Output:**
+```
+5
+8
+-1
+2
+8
+27
+55
+21446778
+```
+
+## Note
+
+In the first test case, one of the suitable arrays is $[2, 3]$. It can be shown that it is impossible to achieve a smaller sum of array elements.
+
+In the second case, one of the suitable arrays is $[1, 3, 4]$. It can also be shown that this is the optimal amount.
+
