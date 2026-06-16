@@ -1,28 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+#ifndef ONLINE_JUDGE
+#include "template.cpp"
+#else
+#define debug(...)
+#define debugArr(...)
+#endif
 #define int long long
 
-void solve(){
+void solve() {
     int n;
     cin >> n;
-    vector<int> arr(n);
+
+    vector<int> a;
+
     for(int i = 0; i < n; i++){
-        cin >> arr[i];
+        int x;
+        cin >> x;
+        a.push_back(x);
     }
-    int ans = max(arr[0] - arr[n-1], arr[n-1] - arr[0]);
-    for(int i = 1; i < n-1; i++){
-        ans = max({ans, arr[i] - arr[0], arr[n-1] - arr[i], abs(arr[i+1] - arr[i])});
+
+    int maxl = 0, minb = LLONG_MAX;
+    int diff = a[n-1] - a[0];
+    for(int i = 0; i < n; i++){
+        if(i != 0) maxl = max(maxl, a[i]);
+        if(i != n-1){
+            minb = min(minb, a[i]);
+            diff = max(diff, a[i] - a[i+1]);
+        }
     }
-    cout << ans << endl;
+
+    diff = max({diff, maxl - a[0], a[n-1] - minb});
+
+    cout << diff << endl;
 }
 
-signed main(){
+signed main() {
+    ios::sync_with_stdio(false);
     cin.tie(0);
-    ios::sync_with_stdio(0);
 
     int t;
     cin >> t;
-    while(t--){
-        solve();
-    }
+    
+    while (t--) 
+    solve();
 }
