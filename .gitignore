@@ -16,3 +16,12 @@ env/
 # System files
 .DS_Store
 Thumbs.db
+
+# Auto sync script and temporary/compilation files
+auto_sync.sh
+.cph/
+template.bin
+template.exe
+*.exe
+*.out
+AUTOMATION_INFO.md
