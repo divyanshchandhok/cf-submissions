@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" fill="none">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #f0f6fc; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #8b949e; letter-spacing: 0.5px; }
+    .value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 38px; font-weight: 800; fill: #58a6ff; }
+    .legend-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #c9d1d9; }
+    .legend-count { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #8b949e; }
+    .chart-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #c9d1d9; }
+    .chart-value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 10px; fill: #8b949e; }
+    .profile-handle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #f0f6fc; }
+    .profile-rating { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; }
+  </style>
+  <defs>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="798" height="338" x="1" y="1" rx="12" fill="#0d1117" stroke="url(#border-glow)" stroke-width="1.5" />
+  <g transform="translate(30, 25)">
+    <g transform="translate(0, 2)">
+      <rect x="0" y="5" width="4.5" height="12" rx="1" fill="#EF4444" />
+      <rect x="7.5" y="0" width="4.5" height="17" rx="1" fill="#3B82F6" />
+      <rect x="15" y="8" width="4.5" height="9" rx="1" fill="#F59E0B" />
+    </g>
+    <text x="32" y="15" class="title">Codeforces Analytics Portfolio</text>
+  </g>
+  <g transform="translate(770, 25)" text-anchor="end">
+    <text x="0" y="14" class="profile-handle">divyanshchandhok</text>
+    <text x="0" y="29" class="profile-rating" fill="#06b6d4">Specialist • 1516</text>
+  </g>
+  <line x1="30" y1="80" x2="770" y2="80" stroke="#21262d" stroke-width="1" />
+  <!-- Total Solved -->
+  <g transform="translate(30, 110)">
+    <text x="0" y="0" class="label">TOTAL SOLVED</text>
+    <text x="0" y="40" class="value">296</text>
+  </g>
+  <!-- Language Distribution -->
+  <g transform="translate(30, 195)">
+    <text x="0" y="0" class="label">LANGUAGE DISTRIBUTION</text>
+    
+    <!-- Progress Bar -->
+    <rect x="0" y="12" width="240" height="8" rx="4" fill="#21262d" />
+    <rect x="0" y="12" width="120" height="8" rx="4" fill="#3B82F6" />
+    <rect x="120" y="12" width="120" height="8" rx="4" fill="#F59E0B" />
+    
+    <!-- Legend -->
+    <!-- C++ -->
+    <circle cx="5" cy="42" r="4" fill="#3B82F6" />
+    <text x="15" y="46" class="legend-text">C++</text>
+    <text x="45" y="46" class="legend-count">50.0%</text>
+    <text x="85" y="46" class="legend-count">(148)</text>
+    
+    <!-- Python -->
+    <circle cx="130" cy="42" r="4" fill="#F59E0B" />
+    <text x="140" y="46" class="legend-text">Python</text>
+    <text x="185" y="46" class="legend-count">50.0%</text>
+    <text x="225" y="46" class="legend-count">(148)</text>
+  </g>
+  <!-- Difficulty Distribution -->
+  <g transform="translate(340, 110)">
+    <text x="0" y="0" class="label">DIFFICULTY DISTRIBUTION</text>
+  </g>
+  <g transform="translate(340, 135)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">800</text>
+    <rect x="45" y="0" width="240" height="8" rx="3" fill="#94a3b8" />
+    <text x="293" y="8" class="chart-value">96</text>
+  </g>
+  <g transform="translate(340, 155)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">900</text>
+    <rect x="45" y="0" width="105" height="8" rx="3" fill="#94a3b8" />
+    <text x="158" y="8" class="chart-value">42</text>
+  </g>
+  <g transform="translate(340, 175)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1000</text>
+    <rect x="45" y="0" width="65" height="8" rx="3" fill="#94a3b8" />
+    <text x="118" y="8" class="chart-value">26</text>
+  </g>
+  <g transform="translate(340, 195)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1100</text>
+    <rect x="45" y="0" width="97" height="8" rx="3" fill="#94a3b8" />
+    <text x="150" y="8" class="chart-value">39</text>
+  </g>
+  <g transform="translate(340, 215)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1200</text>
+    <rect x="45" y="0" width="50" height="8" rx="3" fill="#22c55e" />
+    <text x="103" y="8" class="chart-value">20</text>
+  </g>
+  <g transform="translate(340, 235)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1300</text>
+    <rect x="45" y="0" width="30" height="8" rx="3" fill="#22c55e" />
+    <text x="83" y="8" class="chart-value">12</text>
+  </g>
+  <g transform="translate(340, 255)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1400</text>
+    <rect x="45" y="0" width="50" height="8" rx="3" fill="#06b6d4" />
+    <text x="103" y="8" class="chart-value">20</text>
+  </g>
+  <g transform="translate(340, 275)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1500</text>
+    <rect x="45" y="0" width="27" height="8" rx="3" fill="#06b6d4" />
+    <text x="80" y="8" class="chart-value">11</text>
+  </g>
+  <g transform="translate(340, 295)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1600</text>
+    <rect x="45" y="0" width="22" height="8" rx="3" fill="#3b82f6" />
+    <text x="75" y="8" class="chart-value">9</text>
+  </g>
+  <g transform="translate(340, 315)">
+    <text x="35" y="8" class="chart-label" text-anchor="end">1700</text>
+    <rect x="45" y="0" width="7" height="8" rx="3" fill="#3b82f6" />
+    <text x="60" y="8" class="chart-value">3</text>
+  </g>
+</svg>

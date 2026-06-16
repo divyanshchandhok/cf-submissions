@@ -1,29 +1,18 @@
 # Codeforces Solutions Portfolio
 
-This repository automatically synchronizes and hosts my accepted solutions to Codeforces problems. Each problem contains the source code solution and a formatted `README.md` file featuring the problem statement, limits, sample test cases, and tags scraped directly from Codeforces.
+This repository automatically syncs my accepted solutions to Codeforces problems, organizing each with its problem statement, constraints, sample tests, and tags.
 
-## Statistics
+It also features my competitive programming starter template ([template.cpp](template.cpp)) and a custom debugging utility ([debug.cpp](debug.cpp)). The debug script pretty-prints standard library containers, nested data structures (e.g. vectors of vectors, sets, maps, tuples), and primitive types to `stderr` with optional terminal color formatting for easy local testing.
 
-- **Total Solved:** `296`
-- **C++ Solutions:** `148`
-- **Python Solutions:** `148`
+## 📊 Statistics
 
-### Difficulty Distribution
+<p align="center">
+  <a href="https://codeforces.com/profile/divyanshchandhok" target="_blank">
+    <img src="assets/stats.svg" alt="Codeforces Solutions Dashboard" />
+  </a>
+</p>
 
-| Rating | Solved Problems | Bar |
-| :--- | :--- | :--- |
-| **800** | 96 | `███████████████` |
-| **900** | 42 | `██████░░░░░░░░░` |
-| **1000** | 26 | `████░░░░░░░░░░░` |
-| **1100** | 39 | `██████░░░░░░░░░` |
-| **1200** | 20 | `███░░░░░░░░░░░░` |
-| **1300** | 12 | `█░░░░░░░░░░░░░░` |
-| **1400** | 20 | `███░░░░░░░░░░░░` |
-| **1500** | 11 | `█░░░░░░░░░░░░░░` |
-| **1600** | 9 | `█░░░░░░░░░░░░░░` |
-| **1700** | 3 | `░░░░░░░░░░░░░░░` |
-
-## Solved Problems
+## 🏆 Solved Problems
 
 | # | Problem | Difficulty | Language | Tags | Solved Date | Solution |
 | :---: | :--- | :---: | :---: | :--- | :---: | :---: |
