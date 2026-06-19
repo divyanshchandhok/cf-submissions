@@ -65,42 +65,42 @@
   <g transform="translate(340, 135)">
     <text x="35" y="8" class="chart-label" text-anchor="end">800</text>
     <rect x="45" y="0" width="240" height="8" rx="3" fill="#94a3b8" />
-    <text x="293" y="8" class="chart-value">96</text>
+    <text x="293" y="8" class="chart-value">98</text>
   </g>
   <g transform="translate(340, 155)">
     <text x="35" y="8" class="chart-label" text-anchor="end">900</text>
-    <rect x="45" y="0" width="105" height="8" rx="3" fill="#94a3b8" />
-    <text x="158" y="8" class="chart-value">42</text>
+    <rect x="45" y="0" width="102" height="8" rx="3" fill="#94a3b8" />
+    <text x="155" y="8" class="chart-value">42</text>
   </g>
   <g transform="translate(340, 175)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1000</text>
-    <rect x="45" y="0" width="65" height="8" rx="3" fill="#94a3b8" />
-    <text x="118" y="8" class="chart-value">26</text>
+    <rect x="45" y="0" width="63" height="8" rx="3" fill="#94a3b8" />
+    <text x="116" y="8" class="chart-value">26</text>
   </g>
   <g transform="translate(340, 195)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1100</text>
-    <rect x="45" y="0" width="97" height="8" rx="3" fill="#94a3b8" />
-    <text x="150" y="8" class="chart-value">39</text>
+    <rect x="45" y="0" width="95" height="8" rx="3" fill="#94a3b8" />
+    <text x="148" y="8" class="chart-value">39</text>
   </g>
   <g transform="translate(340, 215)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1200</text>
-    <rect x="45" y="0" width="50" height="8" rx="3" fill="#22c55e" />
-    <text x="103" y="8" class="chart-value">20</text>
+    <rect x="45" y="0" width="48" height="8" rx="3" fill="#22c55e" />
+    <text x="101" y="8" class="chart-value">20</text>
   </g>
   <g transform="translate(340, 235)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1300</text>
-    <rect x="45" y="0" width="30" height="8" rx="3" fill="#22c55e" />
-    <text x="83" y="8" class="chart-value">12</text>
+    <rect x="45" y="0" width="29" height="8" rx="3" fill="#22c55e" />
+    <text x="82" y="8" class="chart-value">12</text>
   </g>
   <g transform="translate(340, 255)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1400</text>
-    <rect x="45" y="0" width="50" height="8" rx="3" fill="#06b6d4" />
-    <text x="103" y="8" class="chart-value">20</text>
+    <rect x="45" y="0" width="48" height="8" rx="3" fill="#06b6d4" />
+    <text x="101" y="8" class="chart-value">20</text>
   </g>
   <g transform="translate(340, 275)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1500</text>
-    <rect x="45" y="0" width="27" height="8" rx="3" fill="#06b6d4" />
-    <text x="80" y="8" class="chart-value">11</text>
+    <rect x="45" y="0" width="26" height="8" rx="3" fill="#06b6d4" />
+    <text x="79" y="8" class="chart-value">11</text>
   </g>
   <g transform="translate(340, 295)">
     <text x="35" y="8" class="chart-label" text-anchor="end">1600</text>

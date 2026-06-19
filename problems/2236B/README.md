@@ -1,5 +1,5 @@
 # Tatar TV Show
-**Problem ID:** 2236B | **Rating:** N/A | **Tags:** `greedy`, `math`, `strings`
+**Problem ID:** 2236B | **Rating:** 800 | **Tags:** `greedy`, `math`, `strings`
 **Language:** C++23 (GCC 14-64, msys2) | **Time:** 46 ms | **Memory:** 0 KB | **Solved At:** 2026-06-13 23:59
 **Link:** [Codeforces Problem Page](https://codeforces.com/problemset/problem/2236/B)
 

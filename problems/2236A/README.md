@@ -1,5 +1,5 @@
 # Games on the Train
-**Problem ID:** 2236A | **Rating:** N/A | **Tags:** `greedy`, `math`
+**Problem ID:** 2236A | **Rating:** 800 | **Tags:** `greedy`, `math`
 **Language:** C++23 (GCC 14-64, msys2) | **Time:** 15 ms | **Memory:** 0 KB | **Solved At:** 2026-06-13 23:48
 **Link:** [Codeforces Problem Page](https://codeforces.com/problemset/problem/2236/A)
 

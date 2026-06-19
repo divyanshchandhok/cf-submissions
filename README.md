@@ -16,8 +16,8 @@ It also features my competitive programming starter template ([template.cpp](tem
 
 | # | Problem | Difficulty | Language | Tags | Solved Date | Solution |
 | :---: | :--- | :---: | :---: | :--- | :---: | :---: |
-| 1 | [2236B - Tatar TV Show](problems/2236B/README.md) | **N/A** | C++23 (GCC 14-64, msys2) | `greedy`, `math`, `strings` | 2026-06-13 23:59 | [Code](problems/2236B/solution.cpp) |
-| 2 | [2236A - Games on the Train](problems/2236A/README.md) | **N/A** | C++23 (GCC 14-64, msys2) | `greedy`, `math` | 2026-06-13 23:48 | [Code](problems/2236A/solution.cpp) |
+| 1 | [2236B - Tatar TV Show](problems/2236B/README.md) | **800** | C++23 (GCC 14-64, msys2) | `greedy`, `math`, `strings` | 2026-06-13 23:59 | [Code](problems/2236B/solution.cpp) |
+| 2 | [2236A - Games on the Train](problems/2236A/README.md) | **800** | C++23 (GCC 14-64, msys2) | `greedy`, `math` | 2026-06-13 23:48 | [Code](problems/2236A/solution.cpp) |
 | 3 | [670D2 - Magic Powder - 2](problems/670D2/README.md) | **1500** | C++23 (GCC 14-64, msys2) | `binary search`, `implementation` | 2026-02-23 15:12 | [Code](problems/670D2/solution.cpp) |
 | 4 | [670D1 - Magic Powder - 1](problems/670D1/README.md) | **1400** | C++23 (GCC 14-64, msys2) | `binary search`, `brute force`, `implementation` | 2026-02-23 14:50 | [Code](problems/670D1/solution.cpp) |
 | 5 | [1613C - Poisoned Dagger](problems/1613C/README.md) | **1200** | C++23 (GCC 14-64, msys2) | `binary search` | 2026-02-23 08:38 | [Code](problems/1613C/solution.cpp) |
